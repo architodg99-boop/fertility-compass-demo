@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Initial Fertility Compass demo"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/fertility-compass-demo.git
+git push -u origin main
