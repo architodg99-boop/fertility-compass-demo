@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fertility Compass - Your Complete Fertility Journey Companion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Fertility Compass</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="treatments.html" class="nav-link">Treatments</a>
+                <a href="community.html" class="nav-link">Community Support</a>
+                <a href="international.html" class="nav-link">International Patients</a>
+                <a href="success-stories.html" class="nav-link">Success Stories</a>
+                <a href="#" class="nav-cta">Book Consultation</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Journey to Parenthood Starts Here</h1>
+            <p>Comprehensive fertility care combining medical excellence, emotional support, and international expertise</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="location.href='treatments.html'">Explore Treatments</button>
+                <button class="btn-secondary" onclick="location.href='community.html'">Get Emotional Support</button>
+                <button class="btn-outline" onclick="location.href='international.html'">International Services</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">A Holistic Approach to Fertility</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Expert Education</h3>
+                    <p>Comprehensive medical information from leading fertility specialists</p>
+                    <a href="treatments.html">Learn More →</a>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Emotional Support</h3>
+                    <p>Counseling, support groups, and community connections</p>
+                    <a href="community.html">Find Support →</a>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Global Care</h3>
+                    <p>Seamless treatment journeys for international patients</p>
+                    <a href="international.html">Explore Options →</a>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-calculator"></i>
+                    <h3>Cost Calculator</h3>
+                    <p>Transparent pricing and financial planning tools</p>
+                    <a href="#" onclick="openCalculator()">Calculate Now →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrated Services -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Our Integrated Services</h2>
+            <div class="services-tabs">
+                <button class="tab-btn active" data-tab="medical">Medical Excellence</button>
+                <button class="tab-btn" data-tab="support">Community Support</button>
+                <button class="tab-btn" data-tab="international">Global Access</button>
+            </div>
+            <div class="tab-content active" id="medical">
+                <div class="tab-grid">
+                    <div class="tab-text">
+                        <h3>World-Class Medical Care</h3>
+                        <p>Integrating the expertise from IVF & ICSI with advanced treatment protocols and cutting-edge technology.</p>
+                        <ul>
+                            <li>Advanced IVF & ICSI Treatments</li>
+                            <li>Preimplantation Genetic Testing</li>
+                            <li>Fertility Preservation</li>
+                            <li>Male Infertility Solutions</li>
+                        </ul>
+                        <button class="btn-primary" onclick="location.href='treatments.html'">View All Treatments</button>
+                    </div>
+                    <div class="tab-image">
+                        <img src="images/medical-care.jpg" alt="Medical Care">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-grid">
+                <div class="cta-card">
+                    <h3>Start with Education</h3>
+                    <p>Understand your options with our comprehensive learning resources</p>
+                    <button class="btn-outline" onclick="location.href='treatments.html#education'">Explore Learning Center</button>
+                </div>
+                <div class="cta-card">
+                    <h3>Get Emotional Support</h3>
+                    <p>Join our community and access professional counseling</p>
+                    <button class="btn-outline" onclick="location.href='community.html'">Find Support Groups</button>
+                </div>
+                <div class="cta-card">
+                    <h3>International Patients</h3>
+                    <p>Complete IVF holiday packages with travel and accommodation</p>
+                    <button class="btn-outline" onclick="location.href='international.html'">View Packages</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Fertility Compass</h4>
+                    <p>Your trusted partner in the fertility journey, integrating medical excellence with compassionate care.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="treatments.html">Medical Treatments</a>
+                    <a href="community.html">Emotional Support</a>
+                    <a href="international.html">International Patients</a>
+                    <a href="success-stories.html">Success Stories</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="community.html#counselling">Counselling Services</a>
+                    <a href="community.html#groups">Support Groups</a>
+                    <a href="community.html#webinars">Free Webinars</a>
+                    <a href="community.html#camps">Fertility Camps</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> +91-XXXXX-XXXXX</p>
+                    <p><i class="fas fa-envelope"></i> info@fertilitycompass.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cost Calculator Modal -->
+    <div id="calculatorModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>IVF Cost Calculator</h3>
+            <div class="calculator">
+                <div class="calc-step">
+                    <label>Select Treatment:</label>
+                    <select id="treatmentType">
+                        <option value="basic_ivf">Basic IVF</option>
+                        <option value="icsi">ICSI</option>
+                        <option value="ivf_icsi">IVF with ICSI</option>
+                        <option value="egg_donor">Egg Donor IVF</option>
+                    </select>
+                </div>
+                <div class="calc-step">
+                    <label>Patient Type:</label>
+                    <select id="patientType">
+                        <option value="domestic">Domestic Patient</option>
+                        <option value="international">International Patient</option>
+                    </select>
+                </div>
+                <div class="calc-result">
+                    <h4>Estimated Cost: <span id="estimatedCost">₹2,50,000 - ₹4,00,000</span></h4>
+                    <button class="btn-primary" onclick="location.href='international.html#packages'">View Detailed Packages</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
